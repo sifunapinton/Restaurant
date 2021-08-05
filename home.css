@@ -1,0 +1,269 @@
+body{
+  font-family: Century;
+  background-image: url(bl.jpg);
+  background-repeat: no-repeat;
+  background-size: 1366px 750px;
+  padding:20px;
+
+}
+nav {
+  height: 70px;
+  background-color: rgb(24, 24, 24);
+  border-radius: 10px;
+  color: rgb(53, 49, 1);
+  font-weight: bold;
+  font-size: 40px;
+  margin-left: 130px;
+  margin-right: 130px;
+  text-align: center;
+  opacity: 0.9;
+}
+img.logo1 {
+  float: left;
+}
+
+img.logo2 {
+  float: right;
+}
+.logo1, .logo2{
+  width: 120px;
+  height: 60px;
+  padding-top: 40px;
+}
+#motto{
+  padding-top: 5px;
+  font-family: cursive;
+}
+nav:hover {
+  color: rgb(10, 10, 10);
+}
+
+#details{
+  width: 250px;
+  text-align: center;
+  height: 300px;
+  background-color: rgb(156, 150, 141);
+  border: solid 6px rgb(54, 54, 54);
+}
+#place{
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: fit-content;
+}
+
+.pos{
+  width:auto;
+  height:auto;     
+}
+
+.sort{
+  width:auto;
+  padding:9px;
+  height:auto;
+  display:table;      
+}
+.items{
+  height:140px;   
+  width:120px;  
+  float:left;
+  margin:0 18px 0 0;
+  padding:2px;
+  width:210px;
+  background:#4a5f4f;
+}
+.tile{
+  height:140px;   
+  width:210px; 
+}
+.day{
+  position: absolute;
+  bottom: 160px; 
+  background: rgb(0, 0, 0);
+  opacity: .8;
+  color: #f1f1f1; 
+  padding: 16px;
+}
+.evening{
+  position: absolute;
+  bottom: 0px; 
+  background: rgb(0, 0, 0);
+  opacity: .8;
+  color: #f1f1f1; 
+  padding: 16px;
+}
+.wait{
+  background: rgb(34, 34, 34);
+  opacity: .8;
+  color:   rgb(156, 150, 141); 
+  padding: 9px;
+}
+.sidepanel  {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 200px;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+.sidepanel a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+.sidepanel a:hover {
+  color: #f1f1f1;
+}
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+}
+.openbtn {
+  position: relative;
+  bottom: 143px;
+  padding-left: 301px;
+  font-size: 15px;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+}
+.openbtn:hover {
+  background-color:#444;
+}
+.closebtn{
+  background-color: black; 
+  padding: 0px 0px 0px 170px;
+}
+
+.open1, .open2, .open, .open3, .open4{
+  position: relative;
+  font-size:30px;
+  cursor:pointer;
+  bottom: 292px;
+}
+.sidenav1, .sidenav2, .sidenav, .sidenav3, .sidenav4 {
+  height: 100%;
+  bottom: 140px;
+  position: relative;
+  z-index: 1;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+.sidenav1 a, .sidenav2 a, .sidenav a, .sidenav3 a, .sidenav4 a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav1 a:hover, .sidenav2 a:hover, .sidenav a:hover, 
+.sidenav3 a:hover, .sidenav4 a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav1 .closebtn, .sidenav2 .closebtn, .sidenav .closebtn, 
+.sidenav3 .closebtn, .sidenav4 .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+#subs{
+  font-size: 13px;
+}
+.dropdown-content {
+  display: none;
+  margin-left: 50px;
+  position: absolute;
+  background-color: #7e7e7e;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content p {
+  color: black;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content p:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+#display{
+  padding-top: 50px;
+}
+.display{
+  width: 300px;
+  height: 330px;
+  float: right;
+}
+
+[data-component="slideshow"] .slide {
+	display: none;
+  text-align: center;
+}
+
+[data-component="slideshow"] .slide.active {
+	display: block;
+}
+.subMenus {
+  display: none; 
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.subMen {
+  background-color: #424141;
+  margin: auto;
+  padding: 20px;
+  /*padding: 0px 20px 0px 20px;*/
+  border: 1px solid #888;
+  width: 12%;
+}
+
+/* The Close Button */
+.closeMen {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.closeMen:hover,
+.closeMen:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}

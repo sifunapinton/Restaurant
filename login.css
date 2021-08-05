@@ -1,0 +1,91 @@
+body  {  
+    margin: 0;  
+    padding: 0;  
+    background-color:#6abadeba;  
+    font-family: 'Arial';
+} 
+#logbg{
+    width: 440px;
+    height: 500px;
+    background: #727271;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+} 
+.header{
+    text-align: center;
+    color: #202020ba;
+    font-size: 25px;;
+    opacity: 0.5;
+}
+
+.login{  
+    padding-top: 15px;
+    width: fit-content; 
+    overflow: hidden;   
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+} 
+#login :hover{
+    opacity: 0.6;
+}
+  
+label{  
+    color: rgb(12, 12, 12);  
+    font-size: 23px;  
+}  
+#Uname{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+}  
+#Pass{  
+    width: 300px;  
+    height: 30px;  
+    border: none;  
+    border-radius: 3px;  
+    padding-left: 8px;  
+      
+} 
+#logn{
+    padding: 0px 0px 20px 110px;
+} 
+#lognn{
+    padding-left: 15px;
+}
+#log{  
+    width: 100px; 
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: #202020ba;  
+    font-size: 20px;
+} 
+#reg{  
+    width: 100px; 
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: rgb(4, 88, 46);  
+}
+#fpass{   
+    width: 150px; 
+    height: 30px;  
+    border: none;  
+    border-radius: 17px;  
+    padding-left: 7px;  
+    color: rgb(80, 17, 17);  
+}
+#fpass, #reg{
+    font-weight: bolder;
+    font-size: 15px;
+}  
+ 
